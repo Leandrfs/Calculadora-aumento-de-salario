@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>calculadora</title>
+    </head>
+
+    <body>
+
+        <body>
+            <h1>Calculadora de Aumento de Salário</h1>
+            <form>
+                <label for="salarioAtual">Salário atual:</label>
+                <input type="number" id="salarioAtual" name="salarioAtual" step="0.01"><br>
+                <label for="porcentagemAumento">Porcentagem de aumento:</label>
+                <input type="number" id="porcentagemAumento" name="porcentagemAumento" step="0.01"><br>
+                <button type="button" onclick="calcular()">Calcular</button>
+            </form>
+            <div id="resultado"></div>
+
+            <script src="./calculadora.js"></script>
+        </body>
+    </body>
+</html>
